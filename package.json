@@ -26,7 +26,8 @@
     "express": "^4.16.4",
     "express-path": "^0.3.8",
     "node_module": "0.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "path": "^0.12.7",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   }
 }
