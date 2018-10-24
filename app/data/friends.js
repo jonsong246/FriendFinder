@@ -2,7 +2,7 @@
 var friendsArray = [
 	{
 		name: 'Poo',
-		photo: 'http://disney.wikia.com/wiki/File:Winnie_The_Pooh.png',
+		photo: 'https://vignette.wikia.nocookie.net/disney/images/6/6e/Winnie_The_Pooh.png/revision/latest?cb=20140618203802',
 		scores: [
 			'1',
 			'5',
@@ -18,7 +18,7 @@ var friendsArray = [
     },
     {
 		name: 'Heimlich',
-		photo: 'http://pixar.wikia.com/wiki/File:Heimlich.png',
+		photo: 'https://vignette.wikia.nocookie.net/pixar/images/e/ec/Heimlich.png/revision/latest?cb=20170807224005',
 		scores: [
 			'5',
 			'2',
@@ -34,7 +34,7 @@ var friendsArray = [
     },
     {
 		name: 'Pikachu',
-		photo: 'https://www.kisspng.com/png-pikachu-png-51923/',
+		photo: 'http://www.pngmart.com/files/2/Pikachu-PNG-Photos.png',
 		scores: [
 			'2',
 			'2',
@@ -50,7 +50,7 @@ var friendsArray = [
     },
     {
 		name: 'Chien Po',
-		photo: 'http://disney.wikia.com/wiki/File:Chien_Po_KHII.png',
+		photo: 'http://kingdomhearts.wikia.com/wiki/Chien_Po?file=ChienPo.pngccc',
 		scores: [
 			'3',
 			'1',

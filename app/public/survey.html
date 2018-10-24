@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -195,8 +195,10 @@
                     </div>
                 </div>
                 <script type="text/javascript">
-                    $(document).ready(function() {
-                        $('select').select();
+                    // Activate submit button
+                    $('#submitButton').on('click', function(event) {
+                        event.preventDefault();
+                       $('select').select();
                         $('.modal').modal({
                             dismissible: false, // Modal can be dismissed by clicking outside of the modal
                             opacity: .5, // Opacity of modal background
@@ -204,11 +206,8 @@
                             outDuration: 200, // Transition out duration
                             startingTop: '4%', // Starting top style attribute
                             endingTop: '10%' // Ending top style attribute
-                        });
-                    });
-                    // Activate submit button
-                    $('#submitButton').on('click', function(event) {
-                        event.preventDefault();
+                        })
+                    
                         // Gather user inputs
                         var userInput = {
                             name: $('#userName').val().trim(),
