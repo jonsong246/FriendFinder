@@ -1,0 +1,32 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonsong246/FriendFinder.git"
+  },
+  "keywords": [
+    "friend-finder",
+    "friend-match",
+    "compatibility"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonsong246/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/jonsong246/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-path": "^0.3.8",
+    "node_module": "0.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
